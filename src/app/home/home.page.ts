@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+
 import { Platform } from '@ionic/angular';
 
 import * as Phaser from 'phaser';
@@ -44,8 +45,8 @@ export class HomePage implements OnInit, OnDestroy {
   ngOnDestroy(): void {
     this.game.destroy(true,false);
   }
+
   ngOnInit(): void {
     this.game = new Phaser.Game(this.config);
   }
-
 }

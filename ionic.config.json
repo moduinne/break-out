@@ -1,5 +1,7 @@
 {
   "name": "break-out",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
